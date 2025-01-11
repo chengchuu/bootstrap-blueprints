@@ -413,6 +413,6 @@ Bootstrap 对表单的 `<input>`/`<select>`/`<label>` 等表单元素都进行�
 
 **版权声明**
 
-本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[后除](https://blog.mazey.net/author/mazey)和本文原始地址：[https://blog.mazey.net/2594.html](https://blog.mazey.net/2594.html)
+本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[除除](https://github.com/mazeyqian)和本文原始地址：[https://blog.mazey.net/2594.html](https://blog.mazey.net/2594.html)
 
 （完）

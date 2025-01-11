@@ -294,7 +294,7 @@ Glyphicons 字体图标使用示例：
         <div class="item">
             <img src="//i.mazey.net/x/www/img/upload/image/20170712/b2.jpg" alt="轮播">
             <div class="carousel-caption">
-                <h5>后除提醒君の世界</h5>
+                <h5>除除提醒君の世界</h5>
             </div>
         </div>
     </div>
@@ -334,6 +334,6 @@ Glyphicons 字体图标使用示例：
 
 **版权声明**
 
-本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[后除](https://blog.mazey.net/author/mazey)和本文原始地址：[https://blog.mazey.net/2575.html](https://blog.mazey.net/2575.html)
+本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[除除](https://github.com/mazeyqian)和本文原始地址：[https://blog.mazey.net/2575.html](https://blog.mazey.net/2575.html)
 
 （完）
