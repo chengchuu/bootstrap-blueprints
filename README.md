@@ -10,11 +10,11 @@
 
 在线访问：[https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html)
 
-案例代码：[https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-first-waterfall](https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-first-waterfall)
+案例代码：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall)
 
 **2\. JavaScript 实现**
 
-案例代码：[https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-first-waterfall-javascript](https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-first-waterfall-javascript)
+案例代码：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall-javascript](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall-javascript)
 
 ## [响应式布局](http://blog.mazey.net/2575.html)
 
@@ -22,7 +22,7 @@
 
 在线访问：[https://i.mazey.net/bootstrap-blueprints/lesson-second-navigation/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-second-navigation/index.html)
 
-案例代码：[https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-second-navigation](https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-second-navigation)
+案例代码：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-second-navigation](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-second-navigation)
 
 ## [注册和登录](http://blog.mazey.net/2594.html)
 
@@ -30,7 +30,7 @@
 
 在线访问：[https://i.mazey.net/bootstrap-blueprints/lesson-third-login/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-third-login/index.html)
 
-案例代码：[https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-third-login](https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-third-login)
+案例代码：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-third-login](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-third-login)
 
 ## [评论列表](http://blog.mazey.net/2613.html)
 
@@ -38,7 +38,7 @@
 
 在线访问：[https://i.mazey.net/bootstrap-blueprints/lesson-fourth-comment/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-fourth-comment/index.html)
 
-案例代码：[https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-fourth-comment](https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-fourth-comment)
+案例代码：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-fourth-comment](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-fourth-comment)
 
 ## [单页面网站](http://blog.mazey.net/2671.html)
 
@@ -46,4 +46,4 @@
 
 在线访问：[https://i.mazey.net/bootstrap-blueprints/lesson-fifth-singlepage/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-fifth-singlepage/index.html)
 
-案例代码：[https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-fifth-singlepage](https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-fifth-singlepage)
+案例代码：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-fifth-singlepage](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-fifth-singlepage)

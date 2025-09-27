@@ -340,7 +340,7 @@ body{
 }
 ```
 
-到这里我们的 Bootstrap 瀑布流布局就完成了，一步步完成下来还是很简单的，演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html)，源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-first-waterfall](https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-first-waterfall)。
+到这里我们的 Bootstrap 瀑布流布局就完成了，一步步完成下来还是很简单的，演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html)，源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall)。
 
 ### 3.3 扩展
 
@@ -389,7 +389,7 @@ function loadWaterfall(boxID,thumbnailClass){
 
 用 JavaScript 实现瀑布流最明显的一个好处就是对于 IE 的兼容性更好一些，因为 Windows7 捆绑安装 IE 浏览器的缘故，国内使用 IE 的群体非常庞大，这使得我们在制作网页时不得不考虑 IE 浏览器的兼容问题。
 
-JavaScript 实现瀑布流参考源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-first-waterfall-javascript](https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-first-waterfall-javascript)。
+JavaScript 实现瀑布流参考源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall-javascript](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall-javascript)。
 
 ## 四、总结
 

@@ -328,7 +328,7 @@
 
 ![](https://i.mazey.net/uploads/2022/01/831674385.jpg)
 
-演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-fourth-comment/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-fourth-comment/index.html)，源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-fourth-comment](https://github.com/chengchuu/bootstrap-blueprints/tree/master/lesson-fourth-comment)。
+演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-fourth-comment/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-fourth-comment/index.html)，源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-fourth-comment](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-fourth-comment)。
 
 **版权声明**
 
