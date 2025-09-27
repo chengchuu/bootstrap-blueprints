@@ -294,7 +294,7 @@ Glyphicons 字体图标使用示例：
         <div class="item">
             <img src="//i.mazey.net/x/www/img/upload/image/20170712/b2.jpg" alt="轮播">
             <div class="carousel-caption">
-                <h5>除除提醒君の世界</h5>
+                <h5>提醒君的世界</h5>
             </div>
         </div>
     </div>

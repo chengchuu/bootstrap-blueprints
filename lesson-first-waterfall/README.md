@@ -23,9 +23,9 @@
 <script language="javascript" type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
 <!--BootstrapJS文件，一般放在底部-->
 <script language="javascript" type="text/javascript" src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!--让IE使用最新的渲染模式，支持CSS3-->
+<!-- 让 IE 使用最新的渲染模式，支持 CSS3 -->
 <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
-<!--如果IE版本低于IE9，使浏览器支持HTML5和CSS3-->
+<!-- 如果 IE 版本低于 IE9，使浏览器支持 HTML5 和 CSS3 -->
 <!--[if lt IE 9]>
 <script src="http://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
