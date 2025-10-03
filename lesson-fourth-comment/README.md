@@ -328,10 +328,10 @@
 
 ![](https://i.mazey.net/uploads/2022/01/831674385.jpg)
 
-演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-fourth-comment/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-fourth-comment/index.html)，源码地址：[https://github.com/mazeyqian/bootstrap-blueprints/tree/master/lesson-fourth-comment](https://github.com/mazeyqian/bootstrap-blueprints/tree/master/lesson-fourth-comment)。
+演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-fourth-comment/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-fourth-comment/index.html)，源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-fourth-comment](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-fourth-comment)。
 
 **版权声明**
 
-本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[后除](https://blog.mazey.net/author/mazey)和本文原始地址：[https://blog.mazey.net/2613.html](https://blog.mazey.net/2613.html)
+本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[除除](https://github.com/chengchuu)和本文原始地址：[http://blog.mazey.net/2613.html](http://blog.mazey.net/2613.html)
 
 （完）

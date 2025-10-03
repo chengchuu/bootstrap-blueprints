@@ -294,7 +294,7 @@ Glyphicons 字体图标使用示例：
         <div class="item">
             <img src="//i.mazey.net/x/www/img/upload/image/20170712/b2.jpg" alt="轮播">
             <div class="carousel-caption">
-                <h5>后除提醒君の世界</h5>
+                <h5>提醒君的世界</h5>
             </div>
         </div>
     </div>
@@ -330,10 +330,10 @@ Glyphicons 字体图标使用示例：
 
 在新闻和资讯的盒子上同时加上样式 `col-xs-*`，`col-sm-*` 和 `col-md-*`，小屏时（屏幕宽度 ＜ 992px）`col-xs-*`，`col-sm-*` 生效，`col-md-*` 失效；大屏时（屏幕宽度 ≥ 992px）`col-md-*` 生效，`col-xs-*`，`col-sm-*` 失效。例如：`<div class="col-xs-12 col-sm-12 col-md-6">新闻</div><div class="col-xs-12 col-sm-12 col-md-6">资讯</div>`。
 
-演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-second-navigation/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-second-navigation/index.html)，源码地址：[https://github.com/mazeyqian/bootstrap-blueprints/tree/master/lesson-second-navigation](https://github.com/mazeyqian/bootstrap-blueprints/tree/master/lesson-second-navigation)。
+演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-second-navigation/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-second-navigation/index.html)，源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-second-navigation](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-second-navigation)。
 
 **版权声明**
 
-本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[后除](https://blog.mazey.net/author/mazey)和本文原始地址：[https://blog.mazey.net/2575.html](https://blog.mazey.net/2575.html)
+本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[除除](https://github.com/chengchuu)和本文原始地址：[http://blog.mazey.net/2575.html](http://blog.mazey.net/2575.html)
 
 （完）

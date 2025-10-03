@@ -409,10 +409,10 @@ Bootstrap 对表单的 `<input>`/`<select>`/`<label>` 等表单元素都进行�
 
 ![](https://i.mazey.net/uploads/2022/01/827805044.jpg)
 
-演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-third-login/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-third-login/index.html)，源码地址：[https://github.com/mazeyqian/bootstrap-blueprints/tree/master/lesson-third-login](https://github.com/mazeyqian/bootstrap-blueprints/tree/master/lesson-third-login)。
+演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-third-login/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-third-login/index.html)，源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-third-login](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-third-login)。
 
 **版权声明**
 
-本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[后除](https://blog.mazey.net/author/mazey)和本文原始地址：[https://blog.mazey.net/2594.html](https://blog.mazey.net/2594.html)
+本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[除除](https://github.com/chengchuu)和本文原始地址：[http://blog.mazey.net/2594.html](http://blog.mazey.net/2594.html)
 
 （完）

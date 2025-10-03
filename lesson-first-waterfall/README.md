@@ -23,9 +23,9 @@
 <script language="javascript" type="text/javascript" src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
 <!--BootstrapJS文件，一般放在底部-->
 <script language="javascript" type="text/javascript" src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!--让IE使用最新的渲染模式，支持CSS3-->
+<!-- 让 IE 使用最新的渲染模式，支持 CSS3 -->
 <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
-<!--如果IE版本低于IE9，使浏览器支持HTML5和CSS3-->
+<!-- 如果 IE 版本低于 IE9，使浏览器支持 HTML5 和 CSS3 -->
 <!--[if lt IE 9]>
 <script src="http://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -340,7 +340,7 @@ body{
 }
 ```
 
-到这里我们的 Bootstrap 瀑布流布局就完成了，一步步完成下来还是很简单的，演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html)，源码地址：[https://github.com/mazeyqian/bootstrap-blueprints/tree/master/lesson-first-waterfall](https://github.com/mazeyqian/bootstrap-blueprints/tree/master/lesson-first-waterfall)。
+到这里我们的 Bootstrap 瀑布流布局就完成了，一步步完成下来还是很简单的，演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html)，源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall)。
 
 ### 3.3 扩展
 
@@ -389,7 +389,7 @@ function loadWaterfall(boxID,thumbnailClass){
 
 用 JavaScript 实现瀑布流最明显的一个好处就是对于 IE 的兼容性更好一些，因为 Windows7 捆绑安装 IE 浏览器的缘故，国内使用 IE 的群体非常庞大，这使得我们在制作网页时不得不考虑 IE 浏览器的兼容问题。
 
-JavaScript 实现瀑布流参考源码地址：[https://github.com/mazeyqian/bootstrap-blueprints/tree/master/lesson-first-waterfall-javascript](https://github.com/mazeyqian/bootstrap-blueprints/tree/master/lesson-first-waterfall-javascript)。
+JavaScript 实现瀑布流参考源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall-javascript](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall-javascript)。
 
 ## 四、总结
 
@@ -397,6 +397,6 @@ JavaScript 实现瀑布流参考源码地址：[https://github.com/mazeyqian/boo
 
 **版权声明**
 
-本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[后除](https://blog.mazey.net/author/mazey)和本文原始地址：[https://blog.mazey.net/2399.html](https://blog.mazey.net/2399.html)
+本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[除除](https://github.com/chengchuu)和本文原始地址：[http://blog.mazey.net/2399.html](http://blog.mazey.net/2399.html)
 
 （完）
