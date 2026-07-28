@@ -1,18 +1,20 @@
-## 一、介绍
+# 使用 Bootstrap 构建注册和登录模块
 
-注册和登录在社交和商业网站中是必不可少的一个部分。
+## 案例介绍
 
-## 二、知识点
+注册和登录是社交网站与商业网站中的常见功能。本教程介绍标签页、按钮和表单，并使用这些组件构建可切换的注册和登录模块。
+
+## Bootstrap 基础知识
 
 ### 2.1 标签页
 
 #### 2.1.1 基础标签页
 
-标签页的使用与导航栏类似，同时都依赖于基础样式 `nav`，不同的是附加样式变成了 `nav-tabs` 和 `nav-pills`（胶囊式），也不用在外面加上一层样式为 `navbar navbar-*` 的 `<div>` 元素。
+标签页与导航栏的用法相似，两者都依赖基础样式 `nav`。标签页使用附加样式 `nav-tabs` 或 `nav-pills` (胶囊式)，外层无需添加带有 `navbar navbar-*` 样式的 `<div>`。
 
-##### 2.1.1.1 Tab 式标签页
+**Tab 式标签页**
 
-使用方法：用 `<ul>` + `<li>` + `<a>` 构建一个标签页，在外层 `<ul>` 上加上样式 `nav nav-tabs`，在需要活跃的元素 `<li>` 上加上 `active` 即可。
+使用 `<ul>`、`<li>` 和 `<a>` 元素构建标签页。为外层 `<ul>` 添加样式 `nav nav-tabs`，并为当前标签页的 `<li>` 添加样式 `active`。
 
 ```
 <!--代码部分-->
@@ -29,9 +31,9 @@
 
 ![](https://i.mazey.net/uploads/2022/01/827773559.jpg)
 
-##### 2.1.1.2 胶囊式标签页
+**胶囊式标签页**
 
-使用方法：实现方法与 Tab 式标签页类似，把样式 `nav-tabs` 换成 `nav-pills` 即可。
+胶囊式标签页的结构与 Tab 式标签页相同，只需将样式 `nav-tabs` 替换为 `nav-pills`。
 
 ```
 <!--代码部分-->
@@ -50,7 +52,11 @@
 
 #### 2.1.2 带下拉框的标签页
 
-标签页与导航栏一样可以带下拉框，使用方法也一样，在要放下拉框的 `<li>` 中嵌入一个 `<ul>` + `<li>` + `<a>`，并在一级标签页 `<a>` 元素上加上样式 `dropdown-toggle` 和属性 `data-toggle="dropdown"`，二级导航 `<ul>` 元素上加上样式 `dropdown-menu`。
+标签页也可以包含下拉菜单。配置步骤如下：
+
+1. 在需要显示下拉菜单的 `<li>` 中嵌入由 `<ul>`、`<li>` 和 `<a>` 组成的二级导航。
+2. 为一级标签页的 `<a>` 元素添加样式 `dropdown-toggle` 和属性 `data-toggle="dropdown"`。
+3. 为二级导航的 `<ul>` 元素添加样式 `dropdown-menu`。
 
 ```
 <!--代码部分-->
@@ -76,7 +82,7 @@
 
 #### 2.1.3 响应式标签页
 
-与导航栏一样，标签页也有自己的响应式风格。使用方法：在一级标签页 `<ul>` 元素中加上一个样式 `nav-justified` 即可。
+标签页也支持响应式样式。为一级标签页的 `<ul>` 元素添加样式 `nav-justified` 即可。
 
 ```
 <!--代码部分-->
@@ -102,11 +108,16 @@
 
 小屏效果图：
 
-![浏览器宽度小于768px时触发小屏显示效果](https://i.mazey.net/uploads/2022/01/827774153.jpg)
+![浏览器宽度小于 768 px 时触发的小屏显示效果](https://i.mazey.net/uploads/2022/01/827774153.jpg)
 
 #### 2.1.4 标签页内容
 
-切换标签页显示出内容在网页中很常见，使用方法：在标签页 `<ul>` 元素下方加入一个里外两层 `<div>` 元素的容器，外层 `<div>` 元素加上样式 `tab-content`，内层多个 `<div>` 加上样式 `tab-pane fade`，并给默认显示的内容加上样式 `in active`，这里的 `fade in` 是为了切换时有渐入的效果。另外给内层 `<div>` 元素分别加上不同的 `id` 属性，对应上面 `<ul>` 元素对应的 `href` 属性，例如：若 `href="#first"`，下面 `<div>` 元素里面则是 `id="first"`。
+标签页通常用于切换不同内容。配置步骤如下：
+
+1. 在标签页 `<ul>` 元素后添加两层 `<div>` 容器。
+2. 为外层 `<div>` 添加样式 `tab-content`。
+3. 为内层的各个 `<div>` 添加样式 `tab-pane fade`，并为默认内容添加样式 `in active`。其中，`fade in` 用于实现渐入效果。
+4. 为内层 `<div>` 分别设置不同的 `id`，并与标签页中对应的 `href` 匹配。例如，`href="#first"` 对应 `id="first"`。
 
 ```
 <!--代码部分-->
@@ -133,11 +144,11 @@
 
 ### 2.2 按钮
 
-按钮是网页布局中不可缺少的一部分的，而且不同的场景要使用不同样式的按钮。
+按钮是网页布局中的常见组件，不同场景可以使用不同的按钮样式。
 
 #### 2.2.1 基础按钮
 
-使用方法：在 `<button>`/`<a>`/`<input>` 元素上加上样式 `btn btn-*`（`default`、`primary`、`success`、`info`、`warning`、`danger`、`link`）。
+为 `<button>`、`<a>` 或 `<input>` 元素添加样式 `btn btn-*`。其中，`*` 可以是 `default`、`primary`、`success`、`info`、`warning`、`danger` 或 `link`。
 
 ```
 <!--代码部分-->
@@ -163,9 +174,9 @@
 
 #### 2.2.2 进阶的按钮
 
-##### 2.2.2.1 改变按钮的大小
+**改变按钮大小**
 
-可以通过添加样式 `btn-xs`、`btn-sm`、`btn-lg` 从小到大改变按钮的大小。
+可以添加样式 `btn-xs`、`btn-sm` 或 `btn-lg`，改变按钮大小。
 
 ```
 <!--代码部分-->
@@ -203,9 +214,9 @@
 
 ![](https://i.mazey.net/uploads/2022/01/827777534.jpg)
 
-##### 2.2.2.2 块状按钮
+**块状按钮**
 
-有时候想把一个按钮充满整个父级容器，给按钮添加一个样式 `btn-block` 即可。
+如需让按钮占满父容器的宽度，可以为按钮添加样式 `btn-block`。
 
 ```
 <!--代码部分-->
@@ -223,7 +234,7 @@
 
 #### 2.3.1 基础表单
 
-Bootstrap 对表单的 `<input>`/`<select>`/`<label>` 等表单元素都进行了样式初始化。首先用一个样式 `form-group` 的 `<div>` 元素包住 `<label>` 和 `<input>` 元素获得良好的排列。
+Bootstrap 为 `<input>`、`<select>` 和 `<label>` 等表单元素提供了基础样式。使用带有 `form-group` 样式的 `<div>` 包含 `<label>` 和 `<input>`，可以组织表单元素的排列。
 
 ```
 <!--代码部分-->
@@ -247,7 +258,7 @@ Bootstrap 对表单的 `<input>`/`<select>`/`<label>` 等表单元素都进行�
 
 #### 2.3.2 水平表单
 
-上面的表单“帐号：”和“密码：”在输入框上面，这种效果显然不是我们想要的，这时我们可以给表单添加样式 `form-horizontal` 使其变成水平表单，同时配合栅格系统来合理布局，这里的 `form-group` 就相当与栅格系统中的样式 `row`，所以可以直接在 `form-group` 下面使用 `col-md-*` 等样式布局。
+上例中的"帐号："和"密码："位于输入框上方。如需改为水平排列，可以为表单添加样式 `form-horizontal`，并配合栅格系统布局。在水平表单中，`form-group` 的作用类似于栅格系统中的 `row`，因此可以在其中使用 `col-md-*` 等样式。
 
 ```
 <!--代码部分-->
@@ -288,7 +299,9 @@ Bootstrap 对表单的 `<input>`/`<select>`/`<label>` 等表单元素都进行�
 
 ![](https://i.mazey.net/uploads/2022/01/827778277.jpg)
 
-登录的话肯定少不了验证合理性，Bootstrap 提供校验状态的提示样式。在需要提示的 `<input>` 容器上加上样式 `has-*`（`success`、`warning`、`error`）。若想提示 √，× 或其他符号，在容器上加上样式 `has-feedback`，并且在样式 `form-control` 的 `<input>` 元素下面添加样式为 `form-control-feedback` 的 Glyphicons 字体图标。
+Bootstrap 提供了表示校验状态的提示样式。为需要提示的 `<input>` 容器添加 `has-*`，其中 `*` 可以是 `success`、`warning` 或 `error`。
+
+如需显示 √、× 或其他符号，请为容器添加样式 `has-feedback`。然后，在带有 `form-control` 样式的 `<input>` 元素后添加 Glyphicons 字体图标，并为图标设置样式 `form-control-feedback`。
 
 ```
 <!--代码部分-->
@@ -333,7 +346,7 @@ Bootstrap 对表单的 `<input>`/`<select>`/`<label>` 等表单元素都进行�
 
 #### 2.3.3 输入框组
 
-有时为了满足需求要把元素与 `<input>` 元素组合在一起。使用方法是把 `<input>` 元素包在一个样式 `input-group` 的 `<div>` 元素内，然后在 `<input>` 元素下面放一个样式 `input-group-addon` 的元素。
+输入框组可以将其他元素与 `<input>` 组合。将 `<input>` 放入带有 `input-group` 样式的 `<div>`，然后在 `<input>` 后添加带有 `input-group-addon` 样式的元素。
 
 ```
 <!--代码部分-->
@@ -385,7 +398,7 @@ Bootstrap 对表单的 `<input>`/`<select>`/`<label>` 等表单元素都进行�
 
 ![](https://i.mazey.net/uploads/2022/01/827778459.jpg)
 
-这里的元素也可以替换成按钮，将样式 `input-group-addon` 替换成 `input-group-btn`，然后在里面包一个 `<button>` 元素即可。
+也可以将附加元素替换为按钮。把样式 `input-group-addon` 改为 `input-group-btn`，再在元素中添加一个 `<button>`。
 
 ```
 <!--代码部分-->
@@ -403,16 +416,16 @@ Bootstrap 对表单的 `<input>`/`<select>`/`<label>` 等表单元素都进行�
 
 ![](https://i.mazey.net/uploads/2022/01/827778526.jpg)
 
-## 三、实战
+## 完成案例
 
-用标签页 + 表单做一个可以切换登录和注册的模块。
+组合标签页与表单，构建一个可以切换注册和登录界面的模块。
 
 ![](https://i.mazey.net/uploads/2022/01/827805044.jpg)
 
-演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-third-login/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-third-login/index.html)，源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-third-login](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-third-login)。
+演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-third-login/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-third-login/index.html)
+
+源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-third-login](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-third-login)
 
 **版权声明**
 
-本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[除除](https://github.com/chengchuu)和本文原始地址：[http://blog.mazey.net/2594.html](http://blog.mazey.net/2594.html)
-
-（完）
+本博客所有原创文章均保留版权。转载时必须包含本声明并保持文章完整。还需通过超链接注明作者 [除除](https://github.com/chengchuu)和原文地址：[http://blog.mazey.net/2594.html](http://blog.mazey.net/2594.html)。
