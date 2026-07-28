@@ -350,10 +350,10 @@ Bootstrap 轮播支持自动播放、单击切换、悬停暂停和说明文字�
 
 示例：`<div class="col-xs-12 col-sm-12 col-md-6">新闻</div><div class="col-xs-12 col-sm-12 col-md-6">资讯</div>`。
 
-演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-second-navigation/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-second-navigation/index.html)
+演示地址：<https://i.mazey.net/bootstrap-blueprints/lesson-second-navigation/index.html>
 
-源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-second-navigation](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-second-navigation)
+源码地址：<https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-second-navigation>
 
 **版权声明**
 
-本博客所有原创文章均保留版权。转载时必须包含本声明并保持文章完整。还需通过超链接注明作者 [除除](https://github.com/chengchuu)和原文地址：[http://blog.mazey.net/2575.html](http://blog.mazey.net/2575.html)。
+本博客所有原创文章均保留版权。转载时必须包含本声明并保持文章完整。还需通过超链接注明作者 [除除](https://github.com/chengchuu)和原文地址：<http://blog.mazey.net/2575.html>。

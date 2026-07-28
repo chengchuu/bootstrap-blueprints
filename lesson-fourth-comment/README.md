@@ -328,10 +328,10 @@ Bootstrap 没有规定媒体对象的嵌套层数。
 
 ![](https://i.mazey.net/uploads/2022/01/831674385.jpg)
 
-演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-fourth-comment/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-fourth-comment/index.html)
+演示地址：<https://i.mazey.net/bootstrap-blueprints/lesson-fourth-comment/index.html>
 
-源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-fourth-comment](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-fourth-comment)
+源码地址：<https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-fourth-comment>
 
 **版权声明**
 
-本博客所有原创文章均保留版权。转载时必须包含本声明并保持文章完整。还需通过超链接注明作者 [除除](https://github.com/chengchuu)和原文地址：[http://blog.mazey.net/2613.html](http://blog.mazey.net/2613.html)。
+本博客所有原创文章均保留版权。转载时必须包含本声明并保持文章完整。还需通过超链接注明作者 [除除](https://github.com/chengchuu)和原文地址：<http://blog.mazey.net/2613.html>。

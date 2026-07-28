@@ -422,10 +422,10 @@ Bootstrap 提供了表示校验状态的提示样式。为需要提示的 `<inpu
 
 ![](https://i.mazey.net/uploads/2022/01/827805044.jpg)
 
-演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-third-login/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-third-login/index.html)
+演示地址：<https://i.mazey.net/bootstrap-blueprints/lesson-third-login/index.html>
 
-源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-third-login](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-third-login)
+源码地址：<https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-third-login>
 
 **版权声明**
 
-本博客所有原创文章均保留版权。转载时必须包含本声明并保持文章完整。还需通过超链接注明作者 [除除](https://github.com/chengchuu)和原文地址：[http://blog.mazey.net/2594.html](http://blog.mazey.net/2594.html)。
+本博客所有原创文章均保留版权。转载时必须包含本声明并保持文章完整。还需通过超链接注明作者 [除除](https://github.com/chengchuu)和原文地址：<http://blog.mazey.net/2594.html>。

@@ -350,9 +350,9 @@ body{
 
 至此，Bootstrap 瀑布流布局已完成。
 
-演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html)
+演示地址：<https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html>
 
-源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall)
+源码地址：<https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall>
 
 ### 3.3 扩展
 
@@ -401,7 +401,7 @@ function loadWaterfall(boxID,thumbnailClass){
 
 JavaScript 方案可以改善对 IE 的兼容性。
 
-JavaScript 实现瀑布流参考源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall-javascript](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall-javascript)。
+JavaScript 实现瀑布流参考源码地址：<https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall-javascript>。
 
 ## 总结
 
@@ -409,4 +409,4 @@ JavaScript 实现瀑布流参考源码地址：[https://github.com/chengchuu/boo
 
 **版权声明**
 
-本博客所有原创文章均保留版权。转载时必须包含本声明并保持文章完整。还需通过超链接注明作者 [除除](https://github.com/chengchuu)和原文地址：[http://blog.mazey.net/2399.html](http://blog.mazey.net/2399.html)。
+本博客所有原创文章均保留版权。转载时必须包含本声明并保持文章完整。还需通过超链接注明作者 [除除](https://github.com/chengchuu)和原文地址：<http://blog.mazey.net/2399.html>。
