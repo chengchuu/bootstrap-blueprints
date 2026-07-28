@@ -2,26 +2,205 @@
 <html lang="zh-CN">
 
 <head>
-    <title>Bootstrap 实战</title>
-    <meta name="description" content="Bootstrap 实战，从零开始边学边练！" />
-    <meta name="keywords"
-        content="Bootstrap,Bootstrap实战,从零开始,边学边练" />
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 实战</title>
+    <meta name="description" content="通过六个响应式案例学习 Bootstrap 3 布局与组件。">
+    <meta name="keywords"
+        content="Bootstrap,Bootstrap实战,响应式布局,前端学习">
+    <link rel="stylesheet" href="https://i.mazey.net/lib/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
-    <section>
-        <ul>
-            <li><a href="./lesson-first-waterfall/index.html" target="_blank" title="瀑布流布局 - CSS3">瀑布流布局 - CSS3</a></li>
-            <li><a href="./lesson-first-waterfall-javascript/index.html" target="_blank"
-                    title="瀑布流布局 - JavaScript">瀑布流布局 - JavaScript</a></li>
-            <li><a href="./lesson-second-navigation/index.html" target="_blank" title="响应式布局">响应式布局</a></li>
-            <li><a href="./lesson-third-login/index.html" target="_blank" title="注册和登录">注册和登录</a></li>
-            <li><a href="./lesson-fourth-comment/index.html" target="_blank" title="评论列表">评论列表</a></li>
-            <li><a href="./lesson-fifth-singlepage/index.html" target="_blank" title="单页面网站">单页面网站</a></li>
-        </ul>
-    </section>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#site-navigation" aria-expanded="false" aria-controls="site-navigation">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./index.html">Bootstrap 实战</a>
+            </div>
+            <div class="collapse navbar-collapse" id="site-navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="./index.html">首页</a></li>
+                    <li><a href="#lessons">课程目录</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron">
+        <div class="container">
+            <p class="text-primary">
+                <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+                Bootstrap 3 学习案例
+            </p>
+            <h1>从布局开始，边学边练</h1>
+            <p class="lead">通过六个独立案例，练习栅格系统、导航栏、表单、媒体对象和单页面布局。</p>
+            <p>
+                <a class="btn btn-primary btn-lg" href="#lessons" role="button">
+                    浏览课程
+                    <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                </a>
+            </p>
+        </div>
+    </header>
+
+    <main class="container" id="lessons">
+        <div class="page-header">
+            <h2>课程目录 <small>选择一个案例开始练习</small></h2>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <article class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="label label-primary">LESSON 01</span>
+                        <span class="label label-info">CSS3</span>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="panel-title">瀑布流布局</h3>
+                        <hr>
+                        <p class="text-muted">结合 Bootstrap 栅格系统与 CSS3 多列属性，实现响应式瀑布流。</p>
+                    </div>
+                    <div class="panel-footer">
+                        <a class="btn btn-primary btn-block" href="./lesson-first-waterfall/index.html"
+                            target="_blank" rel="noopener">
+                            打开示例
+                            <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <article class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="label label-primary">LESSON 01</span>
+                        <span class="label label-warning">JavaScript</span>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="panel-title">JavaScript 瀑布流</h3>
+                        <hr>
+                        <p class="text-muted">使用 JavaScript 计算元素位置，完成瀑布流布局的另一种实现。</p>
+                    </div>
+                    <div class="panel-footer">
+                        <a class="btn btn-primary btn-block" href="./lesson-first-waterfall-javascript/index.html"
+                            target="_blank" rel="noopener">
+                            打开示例
+                            <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="clearfix visible-sm-block"></div>
+
+            <div class="col-sm-6 col-md-4">
+                <article class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="label label-primary">LESSON 02</span>
+                        <span class="label label-success">响应式</span>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="panel-title">导航栏与轮播</h3>
+                        <hr>
+                        <p class="text-muted">组合响应式导航栏、轮播和栅格系统，适配不同宽度的设备。</p>
+                    </div>
+                    <div class="panel-footer">
+                        <a class="btn btn-primary btn-block" href="./lesson-second-navigation/index.html"
+                            target="_blank" rel="noopener">
+                            打开示例
+                            <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="clearfix visible-md-block visible-lg-block"></div>
+
+            <div class="col-sm-6 col-md-4">
+                <article class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="label label-primary">LESSON 03</span>
+                        <span class="label label-info">表单</span>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="panel-title">注册和登录</h3>
+                        <hr>
+                        <p class="text-muted">使用标签页、水平表单和校验状态，构建注册与登录模块。</p>
+                    </div>
+                    <div class="panel-footer">
+                        <a class="btn btn-primary btn-block" href="./lesson-third-login/index.html"
+                            target="_blank" rel="noopener">
+                            打开示例
+                            <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="clearfix visible-sm-block"></div>
+
+            <div class="col-sm-6 col-md-4">
+                <article class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="label label-primary">LESSON 04</span>
+                        <span class="label label-default">媒体对象</span>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="panel-title">评论列表</h3>
+                        <hr>
+                        <p class="text-muted">通过 Bootstrap 媒体对象组织头像、评论内容和操作链接。</p>
+                    </div>
+                    <div class="panel-footer">
+                        <a class="btn btn-primary btn-block" href="./lesson-fourth-comment/index.html"
+                            target="_blank" rel="noopener">
+                            打开示例
+                            <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <article class="panel panel-default">
+                    <div class="panel-heading">
+                        <span class="label label-primary">LESSON 05</span>
+                        <span class="label label-success">滚动监听</span>
+                    </div>
+                    <div class="panel-body">
+                        <h3 class="panel-title">单页面网站</h3>
+                        <hr>
+                        <p class="text-muted">组合固定导航、滚动监听和响应式内容区，构建单页面网站。</p>
+                    </div>
+                    <div class="panel-footer">
+                        <a class="btn btn-primary btn-block" href="./lesson-fifth-singlepage/index.html"
+                            target="_blank" rel="noopener">
+                            打开示例
+                            <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer class="well well-sm text-center">
+        <div class="container">
+            <p class="text-muted">
+                <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+                Bootstrap 3 实战学习案例
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://i.mazey.net/lib/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://i.mazey.net/lib/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
