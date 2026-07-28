@@ -1,4 +1,4 @@
-# 使用 Bootstrap 构建评论列表
+# 使用 Bootstrap 3 构建评论列表
 
 ## 案例介绍
 

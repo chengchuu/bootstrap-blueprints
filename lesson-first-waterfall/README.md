@@ -1,4 +1,4 @@
-# 使用 Bootstrap 实现瀑布流布局
+# 使用 Bootstrap 3 实现瀑布流布局
 
 网上已有许多 Bootstrap 基础教程。Bootstrap 中文网 (`bootcss.com`) 也提供了详细文档，但完整的实战案例相对较少。本教程以瀑布流布局为目标，仅讲解案例涉及的知识点。开始前，需要具备 HTML 和 CSS 基础。
 
