@@ -14,7 +14,14 @@ Shared assets live in `images/`. Explanatory material belongs in the root `READM
 
 ## Build, Test, and Development Commands
 
-There is no package manager or build step. Serve the repository over HTTP so relative links and browser behavior match deployment:
+Install the dependency-free npm project and validate the custom JavaScript:
+
+```sh
+pnpm install --frozen-lockfile
+npm run build
+```
+
+The checked-in HTML, CSS, JavaScript, and images are the deployable static-site artifact; the build command validates the custom JavaScript rather than generating a separate output directory. Serve the repository over HTTP so relative links and browser behavior match deployment:
 
 ```sh
 python3 -m http.server 8000
