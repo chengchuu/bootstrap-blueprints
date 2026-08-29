@@ -11,11 +11,22 @@
     <link rel="icon" type="image/png" sizes="32x32" href="//i.mazey.net/icon/fav/logo-dark-circle-transparent-32x32.png">
     <link rel="stylesheet" href="//i.mazey.net/lib/bootstrap/3.4.1/css/bootstrap.min.css">
     <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+
         .navbar-static-top {
             margin-bottom: 0;
         }
 
+        main {
+            flex: 1 0 auto;
+        }
+
         .site-footer {
+            flex-shrink: 0;
             margin-top: 40px;
             padding: 24px 0;
             border-top: 1px solid #e5e5e5;
