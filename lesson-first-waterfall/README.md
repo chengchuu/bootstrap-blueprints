@@ -1,20 +1,28 @@
-讲 Bootstrap 基础的教程网上已经很多了，实际上 Bootstrap 中文网（bootcss.com）里的文档已经写的很详细了，但实战的案例却不多。这里用一些当前流行的网页布局为导向，使用 Bootstrap 中的样式来完成它。每次只讲与案例相关的知识点，边学边练，加强理解。练习本案例需有 HTML/CSS 基础。
+# 使用 Bootstrap 3 实现瀑布流布局
 
-## 一、案例介绍
+网上已有许多 Bootstrap 基础教程。Bootstrap 中文网 (`bootcss.com`) 也提供了详细文档，但完整的实战案例相对较少。本教程以瀑布流布局为目标，仅讲解案例涉及的知识点。开始前，需要具备 HTML 和 CSS 基础。
 
-瀑布流是近几年流行起来的一种网页布局，视觉表现为参差不齐的多栏布局，本案例便是使用 Bootstrap 实现一个瀑布流布局。
+## 案例介绍
+
+瀑布流是一种多栏布局，各列内容的高度并不一致。本案例演示如何使用 Bootstrap 实现瀑布流布局。
 
 ![瀑布流布局效果图](https://i.mazey.net/uploads/2021/12/lesson-first-waterfall-demo-800x849-1.jpg)
 
-## 二、相关的 Bootstrap 知识点
+## Bootstrap 基础知识
 
 ### 2.1 配置 Bootstrap
 
-#### 2.1.1 首先去 Bootstrap 官网（[bootcss.com](https://v3.bootcss.com/getting-started/#download)）下载“用于生产环境的Bootstrap”。
+#### 1. 下载 Bootstrap
 
-#### 2.1.2 在 `<head>` 标签内引入 CSS 文件夹内的经过压缩的 `bootstrap.min.css`。
+从 [Bootstrap 中文网](https://v3.bootcss.com/getting-started/#download)下载用于生产环境的 Bootstrap。
 
-#### 2.1.3 因为 Bootstrap 的 JS 插件是依赖 jQuery 的，所以想用他的 JS 插件必须先引入 jQuery ，然后再引入 JS 文件夹下的 `bootstrap.min.js`。
+#### 2. 引入样式表
+
+在 `<head>` 标签内引入 CSS 目录中的压缩样式表 `bootstrap.min.css`。
+
+#### 3. 引入脚本
+
+Bootstrap 的 JavaScript 插件依赖 jQuery。请先引入 jQuery，再引入 JS 目录中的 `bootstrap.min.js`。
 
 ```
 <!--BootstrapCSS文件，放在<head>内-->
@@ -36,11 +44,11 @@
 
 > 官方解释：Bootstrap 提供了一套响应式、移动设备优先的流式栅格系统，随着屏幕或视口（viewport）尺寸的增加，系统会自动分为最多 12 列。它包含了易于使用的预定义类。
 
-简单来说，就是 Bootstrap 为了快速布局从外到内写好了三类样式：
+Bootstrap 提供以下三类样式，用于快速构建栅格布局：
 
-* 外层的固定宽度 `.container` 或 100% 宽度 `.container-fluid` 样式；
-* 行 `.row` 样式，必须包含在 `.container` 或 `.container-fluid` 中；
-* 列 `.col-md-*`（`*` 可以是 1 到 12，此处代表中等屏幕按此标准显示，`.col-md-1` 占 `.row` 的 1/12，`.col-md-12` 占 `.row` 的 12/12）或列偏移 `.col-md-offset-*`（`*` 可以是 1 到 12），包含在 `.row` 容器中，从而快速进行栅格布局。
+* 使用固定宽度的 `.container` 或宽度为 100% 的 `.container-fluid` 作为外层容器；
+* 将 `.row` 行容器放在 `.container` 或 `.container-fluid` 中；
+* 将 `.col-md-*` 列或 `.col-md-offset-*` 列偏移放在 `.row` 中。`*` 可以是 1～12。在中等屏幕上，`.col-md-1` 占 `.row` 宽度的 1/12，`.col-md-12` 占据整行。
 
 `.col-md-*` 示例：
 
@@ -108,13 +116,13 @@
 
 ![效果图](https://i.mazey.net/uploads/2021/12/814835921.jpg)
 
-另外需要注意的是，不管 `.col-md-*` 和 `.col-md-offset-*` 怎么搭配使用都要保证 `*` 总和不超过 12，不然会发生断行现象。
+组合使用 `.col-md-*` 和 `.col-md-offset-*` 时，每行的数值总和不能超过 12，否则内容会换行。
 
 ### 2.3 缩略图
 
-缩略图最常出现的是在产品的展示页，最常见的比如一些购物网站的商品展示。
+缩略图常用于产品展示页，例如购物网站的商品列表。
 
-缩略图需要配合上面所介绍的栅格系统来使用，使用方法是把 `<img>` 标签包在带 `.thumbnail` 样式的容器里面，如果我们想添加一段文字描述，可以在里面添加一个样式为 `.caption` 的容器。
+缩略图需要配合栅格系统使用。将 `<img>` 标签放入带有 `.thumbnail` 样式的容器；如需添加文字说明，可在容器内增加一个带有 `.caption` 样式的元素。
 
 `.thumbnail` 示例：
 
@@ -167,7 +175,7 @@
 <img src="img/1.jpg" class="img-responsive" alt="响应式图片">
 ```
 
-另外还可以添加 `img-rounded`/`img-circle`/`img-thumbnail` 让图片呈现圆角/圆形/缩略图的形状。
+还可以添加 `img-rounded`、`img-circle` 或 `img-thumbnail`，让图片呈现圆角、圆形或缩略图样式。
 
 改变图片形状示例：
 
@@ -192,11 +200,11 @@
 
 ![改变图片形状效果图](https://i.mazey.net/uploads/2021/12/814836134.jpg)
 
-## 三、瀑布流布局实战
+## 实现瀑布流布局
 
 ### 3.1 排列图片
 
-看完了上面的内容，下面就开始实战了。首先用栅格结构搭建一个放图片的区域，这里我们在左右各留 1/12 的空白。
+首先使用栅格系统创建图片区域，并在左右两侧各保留 1/12 的空白。
 
 ```
 <!--代码部分-->
@@ -213,7 +221,7 @@
 
 ![效果图](https://i.mazey.net/uploads/2021/12/814836227.jpg)
 
-然后用上面所看到的带描述的缩略图样式，每个缩略图又占这中间 10/12（看作一个整体）的 4/12，每行放三个缩略图，放三行。缩略图里的图片用响应式图片的样式 `.img-responsive` 和圆角样式 `.img-rounded` 修饰下。
+然后添加带说明文字的缩略图。将中间 10/12 的区域视为一个整体，每个缩略图占该区域的 4/12。每行放置 3 个缩略图，共放置 3 行。为其中的图片添加响应式样式 `.img-responsive` 和圆角样式 `.img-rounded`。
 
 ```
 <!--代码部分-->
@@ -279,13 +287,13 @@
 
 ### 3.2 实现瀑布流
 
-到这里已经把图片排列好了，但是看起来怪怪的，因为上下图片之间有一片空隙，看起来很不美观，我们的瀑布流的特点是宽度一致，高度自适应布局。目前已经实现了宽度一致，要想实现高度自适应要用到 CSS3 中的一个样式 `column-width`。
+此时图片已经完成排列，但上下图片之间仍有空隙。瀑布流布局需要保持列宽一致，并根据内容高度紧密排列。当前布局已实现统一列宽，接下来使用 CSS3 属性 `column-width` 调整排列方式。
 
 > 官方解释：设置或检索对象每列的宽度，对应的脚本特性为 columnWidth。
 
-给容器加了 `column-width` 这个样式时，浏览器会给你计算容器里面的 `<div>` 应该显示多少列，计算一个相对合理的布局方式。
+为容器设置 `column-width` 后，浏览器会根据容器宽度计算其中 `<div>` 元素的列数。
 
-首先我们给缩略图外部的容器加一个 `id="container"`。
+首先，为缩略图的外层容器添加 `id="container"`。
 
 ```
 <!--代码部分-->
@@ -296,7 +304,7 @@
             <div class="thumbnail">
 ```
 
-然后为这个 `id` 加上 `column-width` 样式。
+然后，为该元素设置 `column-width`。
 
 ```
 <!--代码部分-->
@@ -317,7 +325,7 @@
 
 ![效果图](https://i.mazey.net/uploads/2021/12/lesson-first-waterfall-ok-800x806-1.jpg)
 
-因为现在主流浏览器（Chrome/Firefox/Opera/Safari）都已经支持了 CSS 变量，为了方便调试和维护，上面的 CSS 代码也可以这么写。
+也可以使用 CSS 变量改写上述样式，以便调试和维护。
 
 ```
 <!--代码部分-->
@@ -340,11 +348,15 @@ body{
 }
 ```
 
-到这里我们的 Bootstrap 瀑布流布局就完成了，一步步完成下来还是很简单的，演示地址：[https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html](https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html)，源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall)。
+至此，Bootstrap 瀑布流布局已完成。
+
+演示地址：<https://i.mazey.net/bootstrap-blueprints/lesson-first-waterfall/index.html>
+
+源码地址：<https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall>
 
 ### 3.3 扩展
 
-除了用 CSS3 实现瀑布流之外，还可以用 JavaScript 来实现这个效果，参考代码如下。
+除 CSS3 外，还可以使用 JavaScript 实现瀑布流。参考代码如下。
 
 ```
 //页面加载完之后再加载瀑布流
@@ -387,16 +399,14 @@ function loadWaterfall(boxID,thumbnailClass){
 }
 ```
 
-用 JavaScript 实现瀑布流最明显的一个好处就是对于 IE 的兼容性更好一些，因为 Windows7 捆绑安装 IE 浏览器的缘故，国内使用 IE 的群体非常庞大，这使得我们在制作网页时不得不考虑 IE 浏览器的兼容问题。
+JavaScript 方案可以改善对 IE 的兼容性。
 
-JavaScript 实现瀑布流参考源码地址：[https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall-javascript](https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall-javascript)。
+JavaScript 实现瀑布流参考源码地址：<https://github.com/chengchuu/bootstrap-blueprints/tree/main/lesson-first-waterfall-javascript>。
 
-## 四、总结
+## 总结
 
-本文介绍了 Bootstrap 的基本配置、栅格系统、缩略图、响应式图片和部分 CSS3 样式，其中**栅格系统**因为可以实现响应式布局尤其重要。
+本文介绍了 Bootstrap 的基本配置、栅格系统、缩略图、响应式图片和部分 CSS3 样式。其中，栅格系统是实现响应式布局的基础。
 
 **版权声明**
 
-本博客所有的原创文章，作者皆保留版权。转载必须包含本声明，保持本文完整，并以超链接形式注明作者[除除](https://github.com/chengchuu)和本文原始地址：[http://blog.mazey.net/2399.html](http://blog.mazey.net/2399.html)
-
-（完）
+本博客所有原创文章均保留版权。转载时必须包含本声明并保持文章完整。还需通过超链接注明作者 [除除](https://github.com/chengchuu)和原文地址：<http://blog.mazey.net/2399.html>。
