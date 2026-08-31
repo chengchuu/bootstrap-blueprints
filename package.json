@@ -1,0 +1,11 @@
+{
+  "name": "bootstrap-blueprints",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Standalone Bootstrap 3 learning examples.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node --check lesson-first-waterfall-javascript/js/waterfall-mz.js && node --check lesson-third-login/js/login.js",
+    "serve": "python3 -m http.server 8000"
+  }
+}
