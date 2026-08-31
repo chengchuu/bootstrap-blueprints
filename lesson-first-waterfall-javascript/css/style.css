@@ -1,31 +1,28 @@
 body{
 	font-family:"微软雅黑";
-	--img-width:354px;
-	--img-gap:5px;
+	--waterfall-item-width:354px;
 }
-section{
-    height:1173px;
+.waterfall{
+    position:relative;
+    visibility:hidden;
 }
-.thumbnail>a>img{
+.waterfall.is-ready{
+    visibility:visible;
+}
+.waterfall-item{
+    position:absolute;
+    top:0;
+    left:0;
+    box-sizing:border-box;
+    width:min(var(--waterfall-item-width), 100%);
+    padding:0 15px 20px;
+}
+.waterfall-item .thumbnail{
+    margin-bottom:0;
+}
+.waterfall-item .thumbnail>img{
     width:100%;
 }
-#container>div{
-    width:var(--img-width);
-    height:100%;
-    overflow: auto;
-}
-/*#container{
-    column-width:var(--img-width);
-    -webkit-column-width:var(--img-width);
-    -moz-column-width:var(--img-width);
-    -o-column-width:var(--img-width);
-    -ms-column-width:var(--img-width);
-    column-gap:var(--img-gap);
-    -webkit-column-gap:var(--img-gap);
-    -moz-column-gap:var(--img-gap);
-    -o-column-gap:var(--img-gap);
-    -ms-column-gap:var(--img-gap);
-}*/
 .navbar-default {
     background-color: #fff!important;
     border-color: #fff!important;
