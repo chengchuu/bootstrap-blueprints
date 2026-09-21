@@ -1,6 +1,9 @@
 #my-banner{
     padding: 0px;
 }
+#my-banner .carousel-inner>.item>img{
+    width: 100%;
+}
 .navbar{
     margin-bottom: 0;
 }

@@ -1,17 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 实战 - 单页面网站</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="//i.mazey.net/icon/fav/logo-dark-circle-transparent-32x32.png">
     <meta name="description" content="Bootstrap 实战，从零开始边学边练！" />
     <meta name="keywords"
         content="Bootstrap,Bootstrap实战,从零开始,边学边练" />
     <!-- jQuery -->
-    <script language="javascript" type="text/javascript" src="//i.mazey.net/lib/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//i.mazey.net/lib/jquery/2.1.1/jquery.min.js"></script>
     <link type="text/css" href="./css/bootstrap.min.css" rel="stylesheet" />
-    <link type="text/css" href="./css/style.css" rel="stylesheet" />
-    <script language="javascript" type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <link type="text/css" href="./css/style.css?v=2" rel="stylesheet" />
+    <script src="//i.mazey.net/lib/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#nav-menu" data-offset="60">
@@ -26,7 +28,7 @@
                 </button>
                 <a href="#" class="navbar-brand">
                     <img src="//i.mazey.net/uploads/2022/03/lg_main_a11_1.png"
-                        class="img-responsive ">
+                        class="img-responsive" alt="豆瓣">
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="navigation-collapse">
@@ -40,99 +42,85 @@
             </div>
         </div>
     </nav>
-    <div class="container" id="first">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-6 col-sm-6 col-sm-offset-6  col-xs-6 col-xs-offset-6">
-                        <div class="logo">
-                            <img src="//i.mazey.net/uploads/2022/03/logo.png"
-                                class="img-responsive center-block">
-                        </div>
-                        <div>
-                            <h3 class="text-center"><span>豆瓣</span> 我们的精神角落</h3>
-                            <p class="text-center text-muted">全新首页栏目，新鲜丰富的书影音推荐</p>
-                            <p class="text-center text-muted">来豆瓣，会生活，有意思</p>
-                        </div>
-                        <div>
-                            <img src="//i.mazey.net/uploads/2022/03/pin.png"
-                                class="center-block img-responsive">
-                            <p class="text-muted text-center">扫描下载豆瓣客户端</p>
-                        </div>
-                    </div>
+    <main>
+        <section class="page-section hero-section" id="first">
+            <div class="page-section-content hero-layout">
+                <div class="hero-artwork">
+                    <img src="//i.mazey.net/uploads/2022/03/17705622af81ieohwm0.png"
+                        class="img-responsive center-block" alt="豆瓣 App 界面展示">
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="container" id="second">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <h1 class="text-center">全新个性化首页</h1>
-                        <h3 class="text-center text-muted">全新的个性化推荐，就此现于你眼前</h3>
+                <div class="hero-copy text-center">
+                    <div class="logo">
+                        <img src="//i.mazey.net/uploads/2022/03/logo.png"
+                            class="img-responsive center-block" alt="豆瓣">
                     </div>
-                    <div class="col-md-12 col-sm-12 col-xs-12 img-flex">
-                        <img
-                            src="//i.mazey.net/uploads/2022/03/17713ad1543zo01ag45.png">
+                    <div class="hero-introduction">
+                        <h1><span>豆瓣</span> 我们的精神角落</h1>
+                        <p class="text-muted">全新首页栏目，新鲜丰富的书影音推荐</p>
+                        <p class="text-muted">来豆瓣，会生活，有意思</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container" id="third">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <h1 class="text-center">创作者入驻</h1>
-                        <h3 class="text-center text-muted">在这里，与你心仪的作者、影人、音乐人交流</h3>
-                    </div>
-                    <div class="col-md-12 col-sm-12 col-xs-12 img-flex">
-                        <img
-                            src="//i.mazey.net/uploads/2022/03/177378bf765cxml96ht.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container" id="fourth">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <h1 class="text-center">全新内容付费产品豆瓣时间</h1>
-                        <h3 class="text-center text-muted">学界名家、青年新秀、行业达人陪伴你成为自己</h3>
-                    </div>
-                    <div class="col-md-12 col-sm-12 col-xs-12 img-flex">
-                        <img
-                            src="//i.mazey.net/uploads/2022/03/177378c714fmhse9rtk.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container" id="fifth">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <h1 class="text-center">独家自制节目</h1>
-                    </div>
-                    <div class="col-md-12 col-sm-12 col-xs-12 img-flex-end">
-                        <img
-                            src="//i.mazey.net/uploads/2022/03/1771edd69d317kx6fly.png">
-                    </div>
-                    <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="hero-download">
                         <img src="//i.mazey.net/uploads/2022/03/pin.png"
-                            class="center-block img-responsive">
-                        <p class="text-center text-muted">扫描下载豆瓣客户端</p>
-                        <p class="text-center text-muted">©2005－2017 douban.com, all rights reserved</p>
+                            class="center-block img-responsive" alt="豆瓣客户端下载二维码">
+                        <p class="text-muted">扫描下载豆瓣客户端</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+        <section class="page-section feature-section" id="second">
+            <div class="page-section-content">
+                <div class="section-heading text-center">
+                    <h1>全新个性化首页</h1>
+                    <h3 class="text-muted">全新的个性化推荐，就此现于你眼前</h3>
+                </div>
+                <div class="feature-artwork">
+                    <img src="//i.mazey.net/uploads/2022/03/17713ad1543zo01ag45.png"
+                        class="img-responsive center-block" alt="全新个性化首页">
+                </div>
+            </div>
+        </section>
+        <section class="page-section feature-section" id="third">
+            <div class="page-section-content">
+                <div class="section-heading text-center">
+                    <h1>创作者入驻</h1>
+                    <h3 class="text-muted">在这里，与你心仪的作者、影人、音乐人交流</h3>
+                </div>
+                <div class="feature-artwork">
+                    <img src="//i.mazey.net/uploads/2022/03/177378bf765cxml96ht.png"
+                        class="img-responsive center-block" alt="创作者入驻">
+                </div>
+            </div>
+        </section>
+        <section class="page-section feature-section" id="fourth">
+            <div class="page-section-content">
+                <div class="section-heading text-center">
+                    <h1>全新内容付费产品豆瓣时间</h1>
+                    <h3 class="text-muted">学界名家、青年新秀、行业达人陪伴你成为自己</h3>
+                </div>
+                <div class="feature-artwork">
+                    <img src="//i.mazey.net/uploads/2022/03/177378c714fmhse9rtk.png"
+                        class="img-responsive center-block" alt="豆瓣时间">
+                </div>
+            </div>
+        </section>
+        <section class="page-section feature-section" id="fifth">
+            <div class="page-section-content">
+                <div class="section-heading text-center">
+                    <h1>独家自制节目</h1>
+                </div>
+                <div class="feature-artwork">
+                    <img src="//i.mazey.net/uploads/2022/03/1771edd69d317kx6fly.png"
+                        class="img-responsive center-block" alt="独家自制节目">
+                </div>
+                <footer class="page-footer text-center">
+                    <img src="//i.mazey.net/uploads/2022/03/pin.png"
+                        class="center-block img-responsive" alt="豆瓣客户端下载二维码">
+                    <p class="text-muted">扫描下载豆瓣客户端</p>
+                    <p class="text-muted">©2005－2017 douban.com, all rights reserved</p>
+                </footer>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
